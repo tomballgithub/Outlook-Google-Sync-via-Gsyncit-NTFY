@@ -5,7 +5,8 @@ Gsyncit 5.0 is regarded as a great sync tool for Outlook, but it only does real-
 Updates made to the google calendar are synced on a periodic timer, and it's not optimal to set the refresh for 1-minute to get fast updates.
 
 After finally realizing there wasn't a good tool, I made one, and it is two parts:
-1. Google Calendar Webhook Manager
+
+### 1. Google Calendar Webhook Manager
    - This is a windows command line application
    - Google calendar has a built-in feature to send a webhook when the calendar changes
    - This tool manages setting up that webhook and refreshing it because it only lasts 7 days
@@ -13,7 +14,7 @@ After finally realizing there wasn't a good tool, I made one, and it is two part
    - The user must automate this to run periodically (ex: once per day)
    - The tool is configured from the command line
          
-2. Windows App to Force Gsyncit via Webhook
+### 2. Windows App to Force Gsyncit via Webhook
    - This is a windows gui application that sits in the System Tray
    - It monitors the chosen NTFY channel for an update and then forces Gsyncit to sync
    - It does this by doing the key combination Alt + 3 within the outlook app
