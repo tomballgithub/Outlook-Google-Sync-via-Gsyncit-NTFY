@@ -1,4 +1,4 @@
-# Created by Jeoff Krontz via claude on 3/15/2026
+# Created via claude on 3/15/2026
 #
 # This script monitors a NTFY feed which is being updated by Google webhook when a calendar changes
 # When detected, this script will switch focus to outlook and hit key sequence ALT+3
@@ -60,10 +60,10 @@ os.environ["REQUESTS_CA_BUNDLE"] = certifi.where()
 # │  Create gsyncit_monitor.ini next to the .exe to override any of these.  │
 # └─────────────────────────────────────────────────────────────────────────┘
 
-NTFY_TOPIC_URL     = "https://ntfy.sh/jeoff_calendar_987"
+NTFY_TOPIC_URL     = "https://ntfy.sh/pick_your_topic"
 OUTLOOK_SYNC_KEY   = "alt+3"
-SYNC_DELAY_SECONDS = 3
-DEBOUNCE_SECONDS   = 15
+SYNC_DELAY_SECONDS = 120
+DEBOUNCE_SECONDS   = 120
 LOG_FILE           = None   # None = auto: next to the .exe
 
 # ┌─────────────────────────────────────────────────────────────────────────┐
