@@ -1,0 +1,1 @@
+pyinstaller --onefile --noconsole --collect-data certifi --hidden-import pystray --hidden-import PIL --hidden-import requests ntfy_gsyncit_monitor.py
