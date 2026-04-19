@@ -5,13 +5,14 @@
       - The Gsyncit Outlook Plugin must be installed.
       - User must right click the 'Sync Calendars' button and select "Add to Quick Access Toolbar' (button located in the Outlook Ribbon for the Gsyncit Plugin)
       - Pressing & holding the Alt key in Outlook will show the shortcuts for each item including the quick access toolbar
-      - The QAT numbers are in the order of the shortcuts. Rearrange the shortcuts such that the Gsyncit Calendar is ALT + 3.
-   -  The tool will run in the system tray with a blue circle
-   -  There is an option to right click it and:
+      - The quick access toolbar numbers are in the order of the shortcuts. Rearrange the shortcuts such that the Gsyncit Calendar is ALT + 3.
+   - Gsyncit will update when the key sequence is pressed. It has no native webhook capability.
+   - The tool will run in the system tray with a blue circle
+   - There is an option to right click it and:
       - Force a sync
       - View the log
       - Exit the program
-   -  The tool is configured by editing 'gsyncit_monitor.ini"
+   - The tool is configured by editing 'gsyncit_monitor.ini"
 
 ### Configuration via gsyncit_monitor.ini:
 
